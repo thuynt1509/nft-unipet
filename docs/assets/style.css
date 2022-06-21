@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Agency FB Bold";
+  font-family: "Agency FB";
   src: url("font/AgencyFBBold.ttf");
 }
 html, body, div, span, applet, object, iframe,
@@ -53,7 +53,7 @@ table {
 }
 
 .fixCen {
-  width: 100%;
+  width: 1286px;
   margin: 0 auto;
   position: relative;
 }
@@ -75,7 +75,7 @@ table {
 .unipet-wrapper {
   width: 100%;
   overflow-x: hidden;
-  font-family: "Agency FB Bold", sans-serif;
+  font-family: "Agency FB";
 }
 .unipet-wrapper .header-top {
   background: url("../images/bg-header.png") 50% 0 no-repeat;
@@ -84,6 +84,9 @@ table {
   top: 0;
   z-index: 9;
   width: 100%;
+  padding: 25px 2% 0;
+  display: flex;
+  justify-content: space-between;
 }
 .unipet-wrapper .header-top .logo {
   display: block;
@@ -94,6 +97,30 @@ table {
   top: 0;
   left: 50%;
   margin-left: -151px;
+}
+.unipet-wrapper .header-top ul {
+  display: flex;
+}
+.unipet-wrapper .header-top ul li a {
+  display: block;
+  color: #fff;
+  font-size: 36px;
+  margin: 0 30px;
+}
+.unipet-wrapper .header-top .menu-left {
+  width: calc(50% - 250px);
+  display: flex;
+  justify-content: flex-end;
+}
+.unipet-wrapper .header-top .menu-right {
+  width: calc(50% - 250px);
+  display: flex;
+}
+.unipet-wrapper .header-top .menu-right .btn-connect {
+  font-size: 0;
+  background: url("../images/btn-connect.png") 0/100% no-repeat;
+  width: 220px;
+  height: 49px;
 }
 .unipet-wrapper .section2 {
   background: url("../images/bg2.png") 50% 0 no-repeat #153e90;
@@ -107,6 +134,59 @@ table {
   width: 1315px;
   height: 99px;
   margin: 0 auto;
+}
+.unipet-wrapper .section2 .box-choose {
+  background: url("../images/bg-nv.png") 0/100% no-repeat;
+  width: 930px;
+  height: 849px;
+  margin: 200px auto 0;
+  position: relative;
+}
+.unipet-wrapper .section2 .box-choose .btn-join {
+  display: block;
+  background: url("../images/btn-join.png") 0/100% no-repeat;
+  width: 573px;
+  height: 155px;
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  margin-left: -286px;
+}
+.unipet-wrapper .section2 .tab-sex a {
+  display: block;
+  width: 287px;
+  height: 312px;
+  position: absolute;
+  font-size: 0;
+  top: 50%;
+  margin-top: -156px;
+}
+.unipet-wrapper .section2 .tab-sex .btn-male {
+  background: url("../images/icon-male.png") 0/100% no-repeat;
+  right: -250px;
+}
+.unipet-wrapper .section2 .tab-sex .btn-female {
+  background: url("../images/icon-female.png") 0/100% no-repeat;
+  left: -250px;
+}
+.unipet-wrapper .section2 .tab-content-sex {
+  width: 541px;
+  height: 742px;
+  position: absolute;
+  bottom: 160px;
+  left: 50%;
+  margin-left: -270px;
+}
+.unipet-wrapper .section2 .tab-content-sex::before {
+  display: block;
+  content: "";
+  background: url("../images/light-nv.png") 0/100% no-repeat;
+  width: 575px;
+  height: 532px;
+  position: absolute;
+  bottom: 47px;
+  left: 50%;
+  margin-left: -270px;
 }
 .unipet-wrapper .section3 {
   background: url("../images/bg3.jpg") 50% 0 no-repeat;
@@ -130,6 +210,34 @@ table {
   height: 99px;
   margin: 0 auto;
 }
+.unipet-wrapper .section4 .box-trailer {
+  background: url("../images/bg-trailer.png") 0/100% no-repeat;
+  width: 1314px;
+  height: 788px;
+  margin: 75px auto;
+  position: relative;
+  padding: 30px 60px 85px;
+}
+.unipet-wrapper .section4 .box-trailer::before {
+  display: block;
+  content: "";
+  background: url("../images/icon-pet2.png") 0/100% no-repeat;
+  width: 362px;
+  height: 435px;
+  position: absolute;
+  top: -280px;
+  right: -100px;
+}
+.unipet-wrapper .section4 .box-trailer::after {
+  display: block;
+  content: "";
+  background: url("../images/icon-pet1.png") 0/100% no-repeat;
+  width: 525px;
+  height: 477px;
+  position: absolute;
+  bottom: -100px;
+  left: -300px;
+}
 .unipet-wrapper .section5 {
   background: url("../images/bg5.jpg") 50% 0 no-repeat;
   min-height: 1081px;
@@ -151,6 +259,75 @@ table {
   width: 1128px;
   height: 99px;
   margin: 0 auto;
+}
+.unipet-wrapper .section6 .list-progress {
+  display: flex;
+  flex-wrap: wrap;
+}
+.unipet-wrapper .section6 .list-progress .item-progress {
+  width: 50%;
+  position: relative;
+  height: auto;
+}
+.unipet-wrapper .section6 .list-progress .item-progress .date {
+  color: #1ffffc;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress ul li {
+  color: #fff;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress .icon-level {
+  display: block;
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  background: url("../images/icon-time.png") 0/100% no-repeat;
+  top: 0;
+}
+.unipet-wrapper .section6 .list-progress .item-progress .icon-level::before {
+  display: block;
+  content: "";
+  background: url("../images/line1.png") 0/100% no-repeat;
+  width: 5px;
+  height: 178px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -2px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress .icon-level::after {
+  display: block;
+  content: "";
+  background: url("../images/line1.png") 0/100% no-repeat;
+  transform: rotate(-90deg);
+  width: 5px;
+  height: 178px;
+  position: absolute;
+  bottom: -32px;
+  left: -60px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress:nth-child(odd) .icon-level {
+  right: -59px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress:nth-child(even) {
+  padding-left: 235px;
+  margin-top: 270px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress:nth-child(even) .icon-level {
+  left: -59px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress:nth-child(even) .icon-level::after {
+  left: auto;
+  right: -60px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress:nth-child(3) {
+  margin-top: -100px;
+}
+.unipet-wrapper .section6 .list-progress .item-progress.active .icon-level {
+  background: url("../images/icon-time-act.png") 0/100% no-repeat;
 }
 .unipet-wrapper .section7 {
   background: url("../images/bg7.jpg") 50% 0 no-repeat;
