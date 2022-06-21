@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Agency FB";
-  src: url("font/AgencyFBBold.ttf");
+  src: url("../font/AgencyFBBold.ttf");
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,6 +63,10 @@ table {
   margin: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .error, .errors {
   margin-bottom: -5px;
   color: red;
@@ -70,6 +74,10 @@ table {
   text-align: center;
   display: block;
   font-size: 12px;
+}
+
+.spr {
+  background: url("../images/social.png");
 }
 
 .unipet-wrapper {
@@ -191,6 +199,7 @@ table {
 .unipet-wrapper .section3 {
   background: url("../images/bg3.jpg") 50% 0 no-repeat;
   min-height: 1468px;
+  padding: 50px 0;
 }
 .unipet-wrapper .section3 .title-2 {
   display: block;
@@ -199,9 +208,40 @@ table {
   height: 99px;
   margin: 0 auto;
 }
+.unipet-wrapper .section3 .box-nhanvat {
+  padding: 0px 150px;
+}
+.unipet-wrapper .section3 .box-nhanvat .slider-for {
+  height: 630px;
+  color: #fff;
+  font-size: 40px;
+}
+.unipet-wrapper .section3 .box-nhanvat .item {
+  display: flex !important;
+}
+.unipet-wrapper .section3 .box-nhanvat .info {
+  flex: 1;
+}
+.unipet-wrapper .section3 .box-nhanvat .info h5 {
+  font-size: 72px;
+  margin-bottom: 50px;
+  background: linear-gradient(to bottom, white 20%, #9be4ff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.unipet-wrapper .section3 .box-nhanvat .images {
+  background: url("../images/bg-nv2.png") 0/100% no-repeat;
+  width: 720px;
+  height: 612px;
+}
+.unipet-wrapper .section3 .box-nhanvat .images img {
+  display: block;
+  margin: 0 auto;
+}
 .unipet-wrapper .section4 {
   background: url("../images/bg4.jpg") 50% 0 no-repeat;
   min-height: 1258px;
+  padding: 50px 0;
 }
 .unipet-wrapper .section4 .title-3 {
   display: block;
@@ -241,6 +281,7 @@ table {
 .unipet-wrapper .section5 {
   background: url("../images/bg5.jpg") 50% 0 no-repeat;
   min-height: 1081px;
+  padding: 50px 0;
 }
 .unipet-wrapper .section5 .title-4 {
   display: block;
@@ -249,20 +290,52 @@ table {
   height: 99px;
   margin: 0 auto;
 }
+.unipet-wrapper .section5 .box-team {
+  padding: 0 200px;
+}
 .unipet-wrapper .section6 {
   background: url("../images/bg6.jpg") 50% 0 no-repeat;
   min-height: 1091px;
+  padding: 75px 0 100px;
 }
 .unipet-wrapper .section6 .title-5 {
   display: block;
   background: url("../images/title-5.png") 0/100% no-repeat;
   width: 1128px;
   height: 99px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
+}
+.unipet-wrapper .section6 .top-date {
+  display: block;
+  text-align: center;
+  font-size: 105px;
+  color: #1ffffc;
+  margin: 0 auto 50px;
 }
 .unipet-wrapper .section6 .list-progress {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+}
+.unipet-wrapper .section6 .list-progress::before {
+  display: block;
+  content: "";
+  background: url("../images/icon-pet3.png") 0/100% no-repeat;
+  width: 417px;
+  height: 488px;
+  position: absolute;
+  right: -170px;
+  top: -250px;
+}
+.unipet-wrapper .section6 .list-progress::after {
+  display: block;
+  content: "";
+  background: url("../images/icon-pet4.png") 0/100% no-repeat;
+  width: 352px;
+  height: 511px;
+  position: absolute;
+  left: -170px;
+  bottom: -100px;
 }
 .unipet-wrapper .section6 .list-progress .item-progress {
   width: 50%;
@@ -273,6 +346,7 @@ table {
   color: #1ffffc;
   font-size: 85px;
   margin-bottom: 20px;
+  margin-top: -30px;
 }
 .unipet-wrapper .section6 .list-progress .item-progress ul li {
   color: #fff;
@@ -326,12 +400,16 @@ table {
 .unipet-wrapper .section6 .list-progress .item-progress:nth-child(3) {
   margin-top: -100px;
 }
+.unipet-wrapper .section6 .list-progress .item-progress:nth-child(4) {
+  margin-top: 200px;
+}
 .unipet-wrapper .section6 .list-progress .item-progress.active .icon-level {
   background: url("../images/icon-time-act.png") 0/100% no-repeat;
 }
 .unipet-wrapper .section7 {
   background: url("../images/bg7.jpg") 50% 0 no-repeat;
   min-height: 2803px;
+  padding: 50px 0 0;
 }
 .unipet-wrapper .section7 .title-6 {
   display: block;
@@ -339,4 +417,114 @@ table {
   width: 1100px;
   height: 99px;
   margin: 0 auto;
+}
+.unipet-wrapper .section7 .box-partner {
+  padding: 150px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.unipet-wrapper .section7 .box-partner span {
+  display: block;
+  width: 15%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.unipet-wrapper .section7 .box-partner span img {
+  max-width: 100%;
+}
+.unipet-wrapper .footer .inner-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 10%;
+  position: relative;
+  margin-bottom: 500px;
+}
+.unipet-wrapper .footer .inner-footer::before {
+  display: block;
+  content: "";
+  background: url("../images/icon-pet5.png") 0/100% no-repeat;
+  width: 630px;
+  height: 848px;
+  position: absolute;
+  bottom: -500px;
+  right: 0;
+}
+.unipet-wrapper .footer .inner-footer .item {
+  width: 30%;
+  position: relative;
+  z-index: 2;
+}
+.unipet-wrapper .footer .inner-footer .item h4 {
+  color: #1ffffc;
+  font-size: 90px;
+  margin-bottom: 50px;
+}
+.unipet-wrapper .footer .inner-footer .item ul li {
+  margin-bottom: 50px;
+}
+.unipet-wrapper .footer .inner-footer .item ul li a {
+  display: block;
+  color: #fff;
+  font-size: 60px;
+}
+.unipet-wrapper .footer .inner-footer .item ul li a:hover {
+  color: #1ffffc;
+}
+.unipet-wrapper .footer .info-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.unipet-wrapper .footer .info-footer .logo-partner {
+  display: block;
+  width: 25%;
+}
+.unipet-wrapper .footer .info-footer .info-our h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.unipet-wrapper .footer .info-footer .info-our ul {
+  display: flex;
+}
+.unipet-wrapper .footer .info-footer .info-our ul li a {
+  display: block;
+  width: 82px;
+  height: 86px;
+  margin: 0 20px;
+}
+.unipet-wrapper .footer .info-footer .info-our ul li .icon-fb {
+  background-position: 0 0;
+}
+.unipet-wrapper .footer .info-footer .info-our ul li .icon-game {
+  background-position: -136px 0;
+}
+.unipet-wrapper .footer .info-footer .info-our ul li .icon-telegrame {
+  background-position: -275px 0;
+}
+.unipet-wrapper .footer .info-footer .info-our ul li .icon-youtube {
+  background-position: -412px 0;
+}
+.unipet-wrapper .footer .info-footer .info-our ul li .icon-tiktok {
+  background-position: -546px 0;
+}
+
+.slick-arrow {
+  width: 71px;
+  height: 93px;
+}
+.slick-arrow::before {
+  display: none;
+}
+.slick-arrow.slick-prev {
+  background: url("../images/btn-prev.png") 0/100% no-repeat;
+  left: -70px;
+}
+.slick-arrow.slick-next {
+  background: url("../images/btn-next.png") 0/100% no-repeat;
+  right: -70px;
 }

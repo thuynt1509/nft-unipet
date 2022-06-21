@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: 'Agency FB';
-  src: url('font/AgencyFBBold.ttf');
+  src: url('../font/AgencyFBBold.ttf');
 }
 
 //reset css
@@ -62,6 +62,11 @@ table {
   padding: 0;
   margin: 0;
 }
+a{
+  &:hover{
+    text-decoration: none;
+  }
+}
 .error, .errors {
   margin-bottom: -5px;
   color: red;
@@ -69,6 +74,9 @@ table {
   text-align: center;
   display: block;
   font-size: 12px;
+}
+.spr{
+  background: url("../images/social.png");
 }
 .unipet-wrapper{
   width: 100%;
@@ -122,7 +130,6 @@ table {
     }
   }
   .section1{
-    
   }
   .section2{
     background: url("../images/bg2.png") 50% 0 no-repeat #153e90;
@@ -195,6 +202,7 @@ table {
   .section3{
     background: url("../images/bg3.jpg") 50% 0 no-repeat;
     min-height: 1468px;
+    padding: 50px 0;
     .title-2{
       display: block;
       background: url("../images/title-2.png") 0/100% no-repeat;
@@ -202,10 +210,41 @@ table {
       height: 99px;
       margin: 0 auto;
     }
+    .box-nhanvat{
+      padding: 0px 150px;
+      .slider-for{
+        height: 630px;
+        color: #fff;
+        font-size: 40px;
+      }
+      .item{
+        display: flex!important;
+      }
+      .info{
+        flex: 1;
+        h5{
+          font-size: 72px;
+          margin-bottom: 50px;
+          background: linear-gradient(to bottom, #ffff 20%, #9be4ff 80%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+      .images{
+        background: url("../images/bg-nv2.png") 0/100% no-repeat;
+        width: 720px;
+        height: 612px;
+        img{
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
   }
   .section4{
     background: url("../images/bg4.jpg") 50% 0 no-repeat;
     min-height: 1258px;
+    padding: 50px 0;
     .title-3{
       display: block;
       background: url("../images/title-3.png") 0/100% no-repeat;
@@ -245,6 +284,7 @@ table {
   .section5{
     background: url("../images/bg5.jpg") 50% 0 no-repeat;
     min-height: 1081px;
+    padding: 50px 0;
     .title-4{
       display: block;
       background: url("../images/title-4.png") 0/100% no-repeat;
@@ -252,20 +292,52 @@ table {
       height: 99px;
       margin: 0 auto;
     }
+    .box-team{
+      padding: 0 200px;
+    }
   }
   .section6{
     background: url("../images/bg6.jpg") 50% 0 no-repeat;
     min-height: 1091px;
+    padding: 75px 0 100px;
     .title-5{
       display: block;
       background: url("../images/title-5.png") 0/100% no-repeat;
       width: 1128px;
       height: 99px;
-      margin: 0 auto;
+      margin: 0 auto 50px;
+    }
+    .top-date{
+      display: block;
+      text-align: center;
+      font-size: 105px;
+      color: #1ffffc;
+      margin: 0 auto 50px;
     }
     .list-progress{
       display: flex;
       flex-wrap: wrap;
+      position: relative;
+      &::before{
+        display: block;
+        content: '';
+        background: url("../images/icon-pet3.png") 0/100% no-repeat;
+        width: 417px;
+        height: 488px;
+        position: absolute;
+        right: -170px;
+        top: -250px;
+      }
+      &::after{
+        display: block;
+        content: '';
+        background: url("../images/icon-pet4.png") 0/100% no-repeat;
+        width: 352px;
+        height: 511px;
+        position: absolute;
+        left: -170px;
+        bottom: -100px;
+      }
       .item-progress{
         width: 50%;
         position: relative;
@@ -274,6 +346,7 @@ table {
           color: #1ffffc;
           font-size: 85px;
           margin-bottom: 20px;
+          margin-top: -30px;
         }
         ul{
           li{
@@ -331,6 +404,9 @@ table {
         &:nth-child(3){
           margin-top: -100px;
         }
+        &:nth-child(4){
+          margin-top: 200px;
+        }
         &.active{
           .icon-level{
             background: url("../images/icon-time-act.png") 0/100% no-repeat;
@@ -342,6 +418,7 @@ table {
   .section7{
     background: url("../images/bg7.jpg") 50% 0 no-repeat;
     min-height: 2803px;
+    padding: 50px 0 0;
     .title-6{
       display: block;
       background: url("../images/title-6.png") 0/100% no-repeat;
@@ -349,6 +426,123 @@ table {
       height: 99px;
       margin: 0 auto;
     }
+    .box-partner{
+      padding: 150px 50px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      span{
+        display: block;
+        width: calc(90%/6);
+        text-align: center;
+        margin-bottom: 70px;
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .footer{
+    .inner-footer{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0 10%;
+      position: relative;
+      margin-bottom: 500px;
+      &::before{
+        display: block;
+        content: '';
+        background: url("../images/icon-pet5.png") 0/100% no-repeat;
+        width: 630px;
+        height: 848px;
+        position: absolute;
+        bottom: -500px;
+        right: 0;
+      }
+      .item{
+        width: 30%;
+        position: relative;
+        z-index: 2;
+        h4{
+          color: #1ffffc;
+          font-size: 90px;
+          margin-bottom: 50px;
+        }
+        ul{
+          li{
+            margin-bottom: 50px;
+            a{
+              display: block;
+              color: #fff;
+              font-size: 60px;
+              &:hover{
+                color: #1ffffc;
+              }
+            }
+          }
+        }
+      }
+    }
+    .info-footer{
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding:  0 50px;
+      .logo-partner{
+        display: block;
+        width: 25%;
+      }
+      .info-our{
+        h4{
+          color: #fff;
+          text-align: center;
+          font-size: 48px;
+          margin-bottom: 30px;
+        }
+        ul{
+          display: flex;
+          li{
+            a{
+              display: block;
+              width: 82px;
+              height: 86px;
+              margin: 0 20px;
+            }
+            .icon-fb{
+              background-position: 0 0;
+            }
+            .icon-game{
+              background-position: -136px 0;
+            }
+            .icon-telegrame{
+              background-position: -275px 0;
+            }
+            .icon-youtube{
+              background-position: -412px 0;
+            }
+            .icon-tiktok{
+              background-position: -546px 0;
+            }
+          }
+        }
+      }
+    }
   }
   
+}
+.slick-arrow{
+  width: 71px;
+  height: 93px;
+  &::before{
+    display: none;
+  }
+  &.slick-prev{
+    background: url("../images/btn-prev.png") 0/100% no-repeat;
+    left: -70px;
+  }
+  &.slick-next{
+    background: url("../images/btn-next.png") 0/100% no-repeat;
+    right: -70px;
+  }
 }
