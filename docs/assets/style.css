@@ -130,6 +130,33 @@ a:hover {
   width: 220px;
   height: 49px;
 }
+@media only screen and (max-width: 1919px) {
+  .unipet-wrapper .header-top {
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 7.96875vw;
+    padding: 1.3020833333vw 2% 0;
+  }
+  .unipet-wrapper .header-top .logo {
+    width: 15.7291666667vw;
+    height: 10.5208333333vw;
+    margin-left: -7.8645833333vw;
+  }
+  .unipet-wrapper .header-top ul li a {
+    font-size: 1.875vw;
+    margin: 0 1.5625vw;
+  }
+  .unipet-wrapper .header-top .menu-left {
+    width: calc(50% - 13.0208333333vw);
+  }
+  .unipet-wrapper .header-top .menu-right {
+    width: calc(50% - 13.0208333333vw);
+  }
+  .unipet-wrapper .header-top .menu-right .btn-connect {
+    width: 11.4583333333vw;
+    height: 2.5520833333vw;
+  }
+}
 .unipet-wrapper .section2 {
   background: url("../images/bg2.png") 50% 0 no-repeat #153e90;
   min-height: 1235px;
@@ -291,7 +318,57 @@ a:hover {
   margin: 0 auto;
 }
 .unipet-wrapper .section5 .box-team {
-  padding: 0 200px;
+  padding: 50px 200px 0;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member:last-child {
+  margin-bottom: 0;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .avatar {
+  display: block;
+  background: url("../images/bg-avatar.png") 0/100% no-repeat;
+  width: 267px;
+  height: 267px;
+  padding: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .avatar span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .avatar img {
+  width: 100%;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .name {
+  display: block;
+  color: #fff;
+  font-size: 24px;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .position {
+  display: block;
+  color: #1ffffc;
+  font-size: 20px;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .lst-social {
+  display: flex;
+  justify-content: center;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .lst-social li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .lst-social li a.icon-fb {
+  background: url("../images/icon-fb1.png") 0/100% no-repeat;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .lst-social li a.icon-in {
+  background: url("../images/icon-in.png") 0/100% no-repeat;
 }
 .unipet-wrapper .section6 {
   background: url("../images/bg6.jpg") 50% 0 no-repeat;

@@ -128,8 +128,38 @@ a{
         height: 49px;
       }
     }
+    @media only screen and (max-width: 1919px) {
+      background-size: 100% 100%;
+      width: vw(1920px);
+      height: vw(153px);
+      padding: vw(25px) 2% 0;
+      .logo{
+        width: vw(302px);
+        height: vw(202px);
+        margin-left: vw(-151px);
+      } 
+      ul{
+        li{
+          a{
+            font-size: vw(36px);
+            margin: 0 vw(30px);
+          }
+        }
+      }
+      .menu-left{
+        width: calc(50% - vw(250px));
+      }
+      .menu-right{
+        width: calc(50% - vw(250px));
+        .btn-connect{
+          width: vw(220px);
+          height: vw(49px);
+        }
+      }
+    }
   }
   .section1{
+
   }
   .section2{
     background: url("../images/bg2.png") 50% 0 no-repeat #153e90;
@@ -293,7 +323,61 @@ a{
       margin: 0 auto;
     }
     .box-team{
-      padding: 0 200px;
+      padding: 50px 200px 0;
+      .item-team{
+        .item-member{
+          margin-bottom: 50px;
+          text-align: center;
+          &:last-child{
+            margin-bottom: 0;
+          }
+          .avatar{
+            display: block;
+            background: url("../images/bg-avatar.png") 0/100% no-repeat;
+            width: 267px;
+            height: 267px;
+            padding: 20px;
+            overflow: hidden;
+            margin: 0 auto;
+            span{
+              display: block;
+              width: 100%;
+              height: 100%;
+            }
+            img{
+              width: 100%;
+            }
+          }
+          .name{
+            display: block;
+            color: #fff;
+            font-size: 24px;
+          }
+          .position{
+            display: block;
+            color: #1ffffc;
+            font-size: 20px;
+          }
+          .lst-social{
+            display: flex;
+            justify-content: center;
+            li{
+              a{
+                display: block;
+                width: 40px;
+                height: 40px;
+                margin: 10px;
+                &.icon-fb{
+                  background: url("../images/icon-fb1.png") 0/100% no-repeat;
+                }
+                &.icon-in{
+                  background: url("../images/icon-in.png") 0/100% no-repeat;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
   .section6{
