@@ -124,7 +124,7 @@ a:hover {
   display: block;
   background: url("../images/logo.png") 0/100% no-repeat;
   width: 302px;
-  height: 202px;
+  height: 349px;
   position: absolute;
   top: 0;
   left: 50%;
@@ -170,7 +170,7 @@ a:hover {
   }
   .unipet-wrapper .header-top .logo {
     width: 15.7291666667vw;
-    height: 10.5208333333vw;
+    height: 18.1770833333vw;
     margin-left: -7.8645833333vw;
   }
   .unipet-wrapper .header-top ul li a {
@@ -197,9 +197,11 @@ a:hover {
     justify-content: flex-start;
   }
   .unipet-wrapper .header-top .logo {
-    width: 151px;
-    height: 101px;
-    margin-left: -75px;
+    width: 100px;
+    height: 115px;
+    left: auto;
+    margin-left: 0;
+    right: 0;
   }
   .unipet-wrapper .header-top .list-menu {
     flex-direction: column;

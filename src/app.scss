@@ -112,7 +112,7 @@ a{
       display: block;
       background: url("../images/logo.png") 0/100% no-repeat;
       width: 302px;
-      height: 202px;
+      height: 349px;
       position: absolute;
       top: 0;
       left: 50%;
@@ -158,7 +158,7 @@ a{
       padding: vw(25px) 2% 0;
       .logo{
         width: vw(302px);
-        height: vw(202px);
+        height: vw(349px);
         margin-left: vw(-151px);
       } 
       ul{
@@ -187,9 +187,11 @@ a{
       flex-direction: column;
       justify-content: flex-start;
       .logo{
-        width: 151px;
-        height: 101px;
-        margin-left: -75px;
+        width: 100px;
+        height: 115px;
+        left: auto;
+        margin-left: 0;
+        right: 0;
         
       }
       .list-menu{
