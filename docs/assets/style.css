@@ -286,13 +286,19 @@ a:hover {
   top: 50%;
   margin-top: -156px;
 }
-.unipet-wrapper .section2 .tab-sex .btn-male {
+.unipet-wrapper .section2 .tab-sex a.btn-male {
   background: url("../images/icon-male.png") 0/100% no-repeat;
   right: -250px;
 }
-.unipet-wrapper .section2 .tab-sex .btn-female {
-  background: url("../images/icon-female.png") 0/100% no-repeat;
+.unipet-wrapper .section2 .tab-sex a.btn-male:hover, .unipet-wrapper .section2 .tab-sex a.btn-male.active {
+  background: url("../images/icon-male-act.png") 0/100% no-repeat;
+}
+.unipet-wrapper .section2 .tab-sex a.btn-female {
+  background: url("../images/icon-female2.png") 0/100% no-repeat;
   left: -250px;
+}
+.unipet-wrapper .section2 .tab-sex a.btn-female:hover, .unipet-wrapper .section2 .tab-sex a.btn-female.active {
+  background: url("../images/icon-female.png") 0/100% no-repeat;
 }
 .unipet-wrapper .section2 .tab-content-sex {
   width: 541px;

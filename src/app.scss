@@ -285,15 +285,22 @@ a{
         font-size: 0;
         top: 50%;
         margin-top: -156px;
+        &.btn-male{
+          background: url("../images/icon-male.png") 0/100% no-repeat;
+          right: -250px;
+          &:hover, &.active{
+            background: url("../images/icon-male-act.png") 0/100% no-repeat;
+          }
+        }
+        &.btn-female{
+          background: url("../images/icon-female2.png") 0/100% no-repeat;
+          left: -250px;
+          &:hover, &.active{
+            background: url("../images/icon-female.png") 0/100% no-repeat;
+          }
+        }
       }
-      .btn-male{
-        background: url("../images/icon-male.png") 0/100% no-repeat;
-        right: -250px;
-      }
-      .btn-female{
-        background: url("../images/icon-female.png") 0/100% no-repeat;
-        left: -250px;
-      }
+      
     }
     .tab-content-sex{
       width: 541px;
