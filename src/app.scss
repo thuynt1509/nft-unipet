@@ -73,6 +73,7 @@ table {
   margin: 0;
 }
 a{
+  transition: all .3s ease;
   &:hover{
     text-decoration: none;
   }
@@ -133,6 +134,9 @@ a{
           font-size: 36px;
           margin: 0 30px;
           font-family: 'Agency FB Bold';
+          &:hover{
+            color: #1ffffc;
+          }
         }
       }
     }
@@ -149,6 +153,9 @@ a{
         background: url("../images/btn-connect.png") 0/100% no-repeat;
         width: 220px;
         height: 49px;
+        &:hover{
+          transform: scale(1.1);
+        }
       }
     }
     @media only screen and (max-width: 1919px) {
@@ -285,9 +292,27 @@ a{
         font-size: 0;
         top: 50%;
         margin-top: -156px;
+        &::before{
+          display: none;
+          content: '';
+          background: url("../images/line-2.png") 0/100% no-repeat;
+          width: 202px;
+          height: 201px;
+          position: absolute;
+          top: -122px;
+        }
+        &.active{
+          &::before{
+            display: block;
+          }
+        }
         &.btn-male{
           background: url("../images/icon-male.png") 0/100% no-repeat;
           right: -250px;
+          &::before{
+            left: -183px;
+            transform: scaleX(-1);
+          }
           &:hover, &.active{
             background: url("../images/icon-male-act.png") 0/100% no-repeat;
           }
@@ -295,6 +320,9 @@ a{
         &.btn-female{
           background: url("../images/icon-female2.png") 0/100% no-repeat;
           left: -250px;
+          &::before{
+            right: -183px;
+          }
           &:hover, &.active{
             background: url("../images/icon-female.png") 0/100% no-repeat;
           }
@@ -345,13 +373,25 @@ a{
           width: vw(287px);
           height: vw(312px);
           margin-top: vw(-156px);
+          &::before{
+            width: vw(202px);
+            height: vw(201px);
+            top: vw(-122px);
+          }
+          &.btn-male{
+            right: vw(-250px);
+            &::before{
+              left: vw(-183px);
+            }
+          }
+          &.btn-female{
+            left: vw(-250px);
+            &::before{
+              right: vw(-183px);
+            }
+          }
         }
-        .btn-male{
-          right: vw(-250px);
-        }
-        .btn-female{
-          left: vw(-250px);
-        }
+        
       }
       .tab-content-sex{
         width: vw(541px);
@@ -388,15 +428,21 @@ a{
           width: vwm(287px);
           height: vwm(312px);
           margin-top: vwm(-156px);
+          &.active{
+            &::before{
+              display: none;
+            }
+          }
+          &.btn-male{
+            right: vwm(-250px);
+          }
+          &.btn-female{
+            top: vwm(100px);
+            left: auto;
+            right: vwm(-240px);
+          }
         }
-        .btn-male{
-          right: vwm(-250px);
-        }
-        .btn-female{
-          top: vwm(100px);
-          left: auto;
-          right: vwm(-240px);
-        }
+        
       }
       .tab-content-sex{
         width: vwm(541px);
@@ -762,6 +808,9 @@ a{
                 width: 40px;
                 height: 40px;
                 margin: 10px;
+                &:hover{
+                  transform: scale(1.2);
+                }
                 &.icon-fb{
                   background: url("../images/icon-fb1.png") 0/100% no-repeat;
                 }
@@ -1238,6 +1287,9 @@ a{
               width: 82px;
               height: 86px;
               margin: 0 20px;
+              &:hover{  
+                transform: scale(1.1);
+              }
             }
             .icon-fb{
               background-position: 0 0;
@@ -1455,4 +1507,99 @@ a{
 }
 #menu01.active span:nth-of-type(3) {
   transform: translateY(-11px) rotate(45deg);
+}
+
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateY(-20px);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     transform: translateY(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }

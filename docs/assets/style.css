@@ -77,6 +77,9 @@ table {
   margin: 0;
 }
 
+a {
+  transition: all 0.3s ease;
+}
 a:hover {
   text-decoration: none;
 }
@@ -146,6 +149,9 @@ a:hover {
   margin: 0 30px;
   font-family: "Agency FB Bold";
 }
+.unipet-wrapper .header-top ul li a:hover {
+  color: #1ffffc;
+}
 .unipet-wrapper .header-top .menu-left {
   width: calc(50% - 250px);
   display: flex;
@@ -160,6 +166,9 @@ a:hover {
   background: url("../images/btn-connect.png") 0/100% no-repeat;
   width: 220px;
   height: 49px;
+}
+.unipet-wrapper .header-top .menu-right .btn-connect:hover {
+  transform: scale(1.1);
 }
 @media only screen and (max-width: 1919px) {
   .unipet-wrapper .header-top {
@@ -286,9 +295,25 @@ a:hover {
   top: 50%;
   margin-top: -156px;
 }
+.unipet-wrapper .section2 .tab-sex a::before {
+  display: none;
+  content: "";
+  background: url("../images/line-2.png") 0/100% no-repeat;
+  width: 202px;
+  height: 201px;
+  position: absolute;
+  top: -122px;
+}
+.unipet-wrapper .section2 .tab-sex a.active::before {
+  display: block;
+}
 .unipet-wrapper .section2 .tab-sex a.btn-male {
   background: url("../images/icon-male.png") 0/100% no-repeat;
   right: -250px;
+}
+.unipet-wrapper .section2 .tab-sex a.btn-male::before {
+  left: -183px;
+  transform: scaleX(-1);
 }
 .unipet-wrapper .section2 .tab-sex a.btn-male:hover, .unipet-wrapper .section2 .tab-sex a.btn-male.active {
   background: url("../images/icon-male-act.png") 0/100% no-repeat;
@@ -296,6 +321,9 @@ a:hover {
 .unipet-wrapper .section2 .tab-sex a.btn-female {
   background: url("../images/icon-female2.png") 0/100% no-repeat;
   left: -250px;
+}
+.unipet-wrapper .section2 .tab-sex a.btn-female::before {
+  right: -183px;
 }
 .unipet-wrapper .section2 .tab-sex a.btn-female:hover, .unipet-wrapper .section2 .tab-sex a.btn-female.active {
   background: url("../images/icon-female.png") 0/100% no-repeat;
@@ -345,11 +373,22 @@ a:hover {
     height: 16.25vw;
     margin-top: -8.125vw;
   }
-  .unipet-wrapper .section2 .tab-sex .btn-male {
+  .unipet-wrapper .section2 .tab-sex a::before {
+    width: 10.5208333333vw;
+    height: 10.46875vw;
+    top: -6.3541666667vw;
+  }
+  .unipet-wrapper .section2 .tab-sex a.btn-male {
     right: -13.0208333333vw;
   }
-  .unipet-wrapper .section2 .tab-sex .btn-female {
+  .unipet-wrapper .section2 .tab-sex a.btn-male::before {
+    left: -9.53125vw;
+  }
+  .unipet-wrapper .section2 .tab-sex a.btn-female {
     left: -13.0208333333vw;
+  }
+  .unipet-wrapper .section2 .tab-sex a.btn-female::before {
+    right: -9.53125vw;
   }
   .unipet-wrapper .section2 .tab-content-sex {
     width: 28.1770833333vw;
@@ -386,10 +425,13 @@ a:hover {
     height: 26vw;
     margin-top: -13vw;
   }
-  .unipet-wrapper .section2 .tab-sex .btn-male {
+  .unipet-wrapper .section2 .tab-sex a.active::before {
+    display: none;
+  }
+  .unipet-wrapper .section2 .tab-sex a.btn-male {
     right: -20.8333333333vw;
   }
-  .unipet-wrapper .section2 .tab-sex .btn-female {
+  .unipet-wrapper .section2 .tab-sex a.btn-female {
     top: 8.3333333333vw;
     left: auto;
     right: -20vw;
@@ -771,6 +813,9 @@ a:hover {
   width: 40px;
   height: 40px;
   margin: 10px;
+}
+.unipet-wrapper .section5 .box-team .item-team .item-member .lst-social li a:hover {
+  transform: scale(1.2);
 }
 .unipet-wrapper .section5 .box-team .item-team .item-member .lst-social li a.icon-fb {
   background: url("../images/icon-fb1.png") 0/100% no-repeat;
@@ -1217,6 +1262,9 @@ a:hover {
   height: 86px;
   margin: 0 20px;
 }
+.unipet-wrapper .footer .info-footer .info-our ul li a:hover {
+  transform: scale(1.1);
+}
 .unipet-wrapper .footer .info-footer .info-our ul li .icon-fb {
   background-position: 0 0;
 }
@@ -1415,4 +1463,68 @@ a:hover {
 
 #menu01.active span:nth-of-type(3) {
   transform: translateY(-11px) rotate(45deg);
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
