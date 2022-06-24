@@ -252,13 +252,20 @@ a{
     }
   }
   .section1{
-
+    .bg-video{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
   }
   .section2{
-    background: url("../images/bg2.png") 50% 0 no-repeat #153e90;
+    background: url("../images/bg2.png") 50% 0 no-repeat;
     min-height: 1235px;
-    margin-top: -20px;
+    margin-top: -300px;
+    padding-top: 200px;
     position: relative;
+   
+    z-index: 2;
     .title-1{
       display: block;
       background: url("../images/title-1.png") 0/100% no-repeat;
@@ -270,7 +277,7 @@ a{
       background: url("../images/bg-nv.png") 0/100% no-repeat;
       width: 930px;
       height: 849px;
-      margin: 200px auto 0;
+      margin: 0 auto 0;
       position: relative;
       .btn-join{
         display: block;
@@ -352,7 +359,8 @@ a{
     @media only screen and (max-width:1919px) {
       background-size: 100% 100%;
       min-height: vw(1235px);
-      margin-top: vw(-20px);
+      margin-top: vw(-300px);
+      padding-top: vw(200px);
       .title-1{
         width: vw(1315px);
         height: vw(99px);
@@ -360,7 +368,6 @@ a{
       .box-choose{
         width: vw(930px);
         height: vw(849px);
-        margin: vw(200px) auto 0;
         .btn-join{
           width: vw(573px);
           height: vw(155px);
@@ -407,6 +414,8 @@ a{
       }
     }
     @media only screen and (max-width: 567px) {
+      margin-top: vwm(-300px);
+      padding-top: vwm(200px);
       .title-1{
         width: vwm(1315px);
         height: vwm(99px);

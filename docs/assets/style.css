@@ -256,11 +256,18 @@ a:hover {
     display: flex;
   }
 }
+.unipet-wrapper .section1 .bg-video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .unipet-wrapper .section2 {
-  background: url("../images/bg2.png") 50% 0 no-repeat #153e90;
+  background: url("../images/bg2.png") 50% 0 no-repeat;
   min-height: 1235px;
-  margin-top: -20px;
+  margin-top: -300px;
+  padding-top: 200px;
   position: relative;
+  z-index: 2;
 }
 .unipet-wrapper .section2 .title-1 {
   display: block;
@@ -273,7 +280,7 @@ a:hover {
   background: url("../images/bg-nv.png") 0/100% no-repeat;
   width: 930px;
   height: 849px;
-  margin: 200px auto 0;
+  margin: 0 auto 0;
   position: relative;
 }
 .unipet-wrapper .section2 .box-choose .btn-join {
@@ -351,7 +358,8 @@ a:hover {
   .unipet-wrapper .section2 {
     background-size: 100% 100%;
     min-height: 64.3229166667vw;
-    margin-top: -1.0416666667vw;
+    margin-top: -15.625vw;
+    padding-top: 10.4166666667vw;
   }
   .unipet-wrapper .section2 .title-1 {
     width: 68.4895833333vw;
@@ -360,7 +368,6 @@ a:hover {
   .unipet-wrapper .section2 .box-choose {
     width: 48.4375vw;
     height: 44.21875vw;
-    margin: 10.4166666667vw auto 0;
   }
   .unipet-wrapper .section2 .box-choose .btn-join {
     width: 29.84375vw;
@@ -404,6 +411,10 @@ a:hover {
   }
 }
 @media only screen and (max-width: 567px) {
+  .unipet-wrapper .section2 {
+    margin-top: -25vw;
+    padding-top: 16.6666666667vw;
+  }
   .unipet-wrapper .section2 .title-1 {
     width: 109.5833333333vw;
     height: 8.25vw;
