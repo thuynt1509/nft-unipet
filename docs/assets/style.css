@@ -126,12 +126,12 @@ a:hover {
 .unipet-wrapper .header-top .logo {
   display: block;
   background: url("../images/logo.png") 0/100% no-repeat;
-  width: 302px;
-  height: 349px;
+  width: 220px;
+  height: 250px;
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: -151px;
+  margin-left: -110px;
 }
 .unipet-wrapper .header-top .list-menu {
   width: 100%;
@@ -178,9 +178,9 @@ a:hover {
     padding: 1.3020833333vw 2% 0;
   }
   .unipet-wrapper .header-top .logo {
-    width: 15.7291666667vw;
-    height: 18.1770833333vw;
-    margin-left: -7.8645833333vw;
+    width: 11.4583333333vw;
+    height: 13.0208333333vw;
+    margin-left: -5.7291666667vw;
   }
   .unipet-wrapper .header-top ul li a {
     font-size: 1.875vw;
@@ -261,6 +261,32 @@ a:hover {
   width: 100%;
   height: auto;
 }
+.unipet-wrapper .section1 .slogan {
+  display: block;
+  background: url("../images/slogan.png") 0/100% no-repeat;
+  width: 1058px;
+  height: 137px;
+  position: absolute;
+  top: 255px;
+  left: 50%;
+  margin-left: -529px;
+}
+@media only screen and (max-width: 1919px) {
+  .unipet-wrapper .section1 .slogan {
+    width: 55.1041666667vw;
+    height: 7.1354166667vw;
+    top: 13.28125vw;
+    margin-left: -27.5520833333vw;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .unipet-wrapper .section1 .slogan {
+    width: 66.6666666667vw;
+    height: 8.3333333333vw;
+    top: 12.5vw;
+    margin-left: -44.0833333333vw;
+  }
+}
 .unipet-wrapper .section2 {
   background: url("../images/bg2.png") 50% 0 no-repeat;
   min-height: 1235px;
@@ -292,6 +318,16 @@ a:hover {
   bottom: -75px;
   left: 50%;
   margin-left: -286px;
+}
+.unipet-wrapper .section2 .box-choose .btn-join:hover {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: shake;
+  animation-name: shake;
 }
 .unipet-wrapper .section2 .tab-sex a {
   display: block;
@@ -353,6 +389,22 @@ a:hover {
   bottom: 47px;
   left: 50%;
   margin-left: -270px;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.unipet-wrapper .section2 .tab-content-sex .tab-pane.active {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
 }
 @media only screen and (max-width: 1919px) {
   .unipet-wrapper .section2 {
@@ -674,29 +726,77 @@ a:hover {
   position: absolute;
   top: -280px;
   right: -100px;
-  -webkit-animation: gif1 2s infinite linear;
-          animation: gif1 2s infinite linear;
+  -webkit-animation: gif1 1.5s infinite linear;
+          animation: gif1 1.5s infinite linear;
 }
 @-webkit-keyframes gif1 {
   0% {
-    background: url("../images/icon-pet2.png") 0/100% no-repeat;
+    background: url("../images/gau/Gau_00.png") 0/100% no-repeat;
+  }
+  10% {
+    background: url("../images/gau/Gau_03.png") 0/100% no-repeat;
+  }
+  20% {
+    background: url("../images/gau/Gau_07.png") 0/100% no-repeat;
+  }
+  30% {
+    background: url("../images/gau/Gau_10.png") 0/100% no-repeat;
+  }
+  40% {
+    background: url("../images/gau/Gau_14.png") 0/100% no-repeat;
   }
   50% {
-    background: url("../images/icon-pet1.png") 0/100% no-repeat;
+    background: url("../images/gau/Gau_17.png") 0/100% no-repeat;
+  }
+  60% {
+    background: url("../images/gau/Gau_21.png") 0/100% no-repeat;
+  }
+  70% {
+    background: url("../images/gau/Gau_25.png") 0/100% no-repeat;
+  }
+  80% {
+    background: url("../images/gau/Gau_28.png") 0/100% no-repeat;
+  }
+  90% {
+    background: url("../images/gau/Gau_32.png") 0/100% no-repeat;
   }
   100% {
-    background: url("../images/icon-pet3.png") 0/100% no-repeat;
+    background: url("../images/gau/Gau_35.png") 0/100% no-repeat;
   }
 }
 @keyframes gif1 {
   0% {
-    background: url("../images/icon-pet2.png") 0/100% no-repeat;
+    background: url("../images/gau/Gau_00.png") 0/100% no-repeat;
+  }
+  10% {
+    background: url("../images/gau/Gau_03.png") 0/100% no-repeat;
+  }
+  20% {
+    background: url("../images/gau/Gau_07.png") 0/100% no-repeat;
+  }
+  30% {
+    background: url("../images/gau/Gau_10.png") 0/100% no-repeat;
+  }
+  40% {
+    background: url("../images/gau/Gau_14.png") 0/100% no-repeat;
   }
   50% {
-    background: url("../images/icon-pet1.png") 0/100% no-repeat;
+    background: url("../images/gau/Gau_17.png") 0/100% no-repeat;
+  }
+  60% {
+    background: url("../images/gau/Gau_21.png") 0/100% no-repeat;
+  }
+  70% {
+    background: url("../images/gau/Gau_25.png") 0/100% no-repeat;
+  }
+  80% {
+    background: url("../images/gau/Gau_28.png") 0/100% no-repeat;
+  }
+  90% {
+    background: url("../images/gau/Gau_32.png") 0/100% no-repeat;
   }
   100% {
-    background: url("../images/icon-pet3.png") 0/100% no-repeat;
+    background: url("../images/gau/Gau_35.png") 0/100% no-repeat;
   }
 }
 .unipet-wrapper .section4 .box-trailer::after {
@@ -933,6 +1033,8 @@ a:hover {
   position: absolute;
   right: -170px;
   top: -250px;
+  -webkit-animation: gif1 1.5s infinite linear;
+          animation: gif1 1.5s infinite linear;
 }
 .unipet-wrapper .section6 .list-progress::after {
   display: block;
@@ -943,6 +1045,78 @@ a:hover {
   position: absolute;
   left: -170px;
   bottom: -100px;
+  -webkit-animation: gif2 1.5s infinite linear;
+          animation: gif2 1.5s infinite linear;
+}
+@-webkit-keyframes gif2 {
+  0% {
+    background: url("../images/cho/c1_00.png") 0/100% no-repeat;
+  }
+  10% {
+    background: url("../images/cho/c1_03.png") 0/100% no-repeat;
+  }
+  20% {
+    background: url("../images/cho/c1_07.png") 0/100% no-repeat;
+  }
+  30% {
+    background: url("../images/cho/c1_10.png") 0/100% no-repeat;
+  }
+  40% {
+    background: url("../images/cho/c1_14.png") 0/100% no-repeat;
+  }
+  50% {
+    background: url("../images/cho/c1_17.png") 0/100% no-repeat;
+  }
+  60% {
+    background: url("../images/cho/c1_21.png") 0/100% no-repeat;
+  }
+  70% {
+    background: url("../images/cho/c1_25.png") 0/100% no-repeat;
+  }
+  80% {
+    background: url("../images/cho/c1_28.png") 0/100% no-repeat;
+  }
+  90% {
+    background: url("../images/cho/c1_32.png") 0/100% no-repeat;
+  }
+  100% {
+    background: url("../images/cho/c1_35.png") 0/100% no-repeat;
+  }
+}
+@keyframes gif2 {
+  0% {
+    background: url("../images/cho/c1_00.png") 0/100% no-repeat;
+  }
+  10% {
+    background: url("../images/cho/c1_03.png") 0/100% no-repeat;
+  }
+  20% {
+    background: url("../images/cho/c1_07.png") 0/100% no-repeat;
+  }
+  30% {
+    background: url("../images/cho/c1_10.png") 0/100% no-repeat;
+  }
+  40% {
+    background: url("../images/cho/c1_14.png") 0/100% no-repeat;
+  }
+  50% {
+    background: url("../images/cho/c1_17.png") 0/100% no-repeat;
+  }
+  60% {
+    background: url("../images/cho/c1_21.png") 0/100% no-repeat;
+  }
+  70% {
+    background: url("../images/cho/c1_25.png") 0/100% no-repeat;
+  }
+  80% {
+    background: url("../images/cho/c1_28.png") 0/100% no-repeat;
+  }
+  90% {
+    background: url("../images/cho/c1_32.png") 0/100% no-repeat;
+  }
+  100% {
+    background: url("../images/cho/c1_35.png") 0/100% no-repeat;
+  }
 }
 .unipet-wrapper .section6 .list-progress .item-progress {
   width: 50%;
@@ -1538,4 +1712,54 @@ a:hover {
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }

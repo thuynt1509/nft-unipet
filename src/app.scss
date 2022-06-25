@@ -112,12 +112,12 @@ a{
     .logo{
       display: block;
       background: url("../images/logo.png") 0/100% no-repeat;
-      width: 302px;
-      height: 349px;
+      width: 220px;
+      height: 250px;
       position: absolute;
       top: 0;
       left: 50%;
-      margin-left: -151px;
+      margin-left: -110px;
     }
     .list-menu{
       width: 100%;
@@ -164,9 +164,9 @@ a{
       height: vw(153px);
       padding: vw(25px) 2% 0;
       .logo{
-        width: vw(302px);
-        height: vw(349px);
-        margin-left: vw(-151px);
+        width: vw(220px);
+        height: vw(250px);
+        margin-left: vw(-110px);
       } 
       ul{
         li{
@@ -257,6 +257,32 @@ a{
       width: 100%;
       height: auto;
     }
+    .slogan{
+      display: block;
+      background: url("../images/slogan.png") 0/100% no-repeat;
+      width: 1058px;
+      height: 137px;
+      position: absolute;
+      top: 255px;
+      left: 50%;
+      margin-left: -529px;
+    }
+    @media only screen and (max-width:1919px) {
+      .slogan{
+        width: vw(1058px);
+        height: vw(137px);
+        top: vw(255px);
+        margin-left: vw(-529px);
+      }
+    }
+    @media only screen and (max-width:567px) {
+      .slogan{
+        width: vwm(800px);
+        height: vwm(100px);
+        top: vwm(150px);
+        margin-left: vwm(-529px);
+      }
+    }
   }
   .section2{
     background: url("../images/bg2.png") 50% 0 no-repeat;
@@ -288,6 +314,17 @@ a{
         bottom: -75px;
         left: 50%;
         margin-left: -286px;
+        &:hover{
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+          
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-name: shake;
+            animation-name: shake;
+        }
       }
     }
     .tab-sex{
@@ -354,7 +391,26 @@ a{
        bottom: 47px;
        left: 50%;
        margin-left: -270px;
+       -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
       }
+      .tab-pane{
+        &.active{
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
+        }
+      }
+      
     }
     @media only screen and (max-width:1919px) {
       background-size: 100% 100%;
@@ -682,18 +738,42 @@ a{
         position: absolute;
         top: -280px;
         right: -100px;
-        animation: gif1 2s infinite linear;
+        animation: gif1 1.5s infinite linear;
 
       }
       @keyframes gif1 {
         0% {
-          background: url("../images/icon-pet2.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau_00.png") 0/100% no-repeat;
+        }
+        10% {
+          background: url("../images/gau/Gau_03.png") 0/100% no-repeat;
+        }
+        20% {
+          background: url("../images/gau/Gau_07.png") 0/100% no-repeat;
+        }
+        30% {
+          background: url("../images/gau/Gau_10.png") 0/100% no-repeat;
+        }
+        40% {
+          background: url("../images/gau/Gau_14.png") 0/100% no-repeat;
         }
         50% {
-          background: url("../images/icon-pet1.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau_17.png") 0/100% no-repeat;
+        }
+        60% {
+          background: url("../images/gau/Gau_21.png") 0/100% no-repeat;
+        }
+        70% {
+          background: url("../images/gau/Gau_25.png") 0/100% no-repeat;
+        }
+        80% {
+          background: url("../images/gau/Gau_28.png") 0/100% no-repeat;
+        }
+        90% {
+          background: url("../images/gau/Gau_32.png") 0/100% no-repeat;
         }
         100% {
-          background: url("../images/icon-pet3.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau_35.png") 0/100% no-repeat;
         }
       }
       &::after{
@@ -938,6 +1018,7 @@ a{
         position: absolute;
         right: -170px;
         top: -250px;
+        animation: gif1 1.5s infinite linear;
       }
       &::after{
         display: block;
@@ -948,6 +1029,42 @@ a{
         position: absolute;
         left: -170px;
         bottom: -100px;
+        animation: gif2 1.5s infinite linear;
+      }
+      @keyframes gif2 {
+        0% {
+          background: url("../images/cho/c1_00.png") 0/100% no-repeat;
+        }
+        10% {
+          background: url("../images/cho/c1_03.png") 0/100% no-repeat;
+        }
+        20% {
+          background: url("../images/cho/c1_07.png") 0/100% no-repeat;
+        }
+        30% {
+          background: url("../images/cho/c1_10.png") 0/100% no-repeat;
+        }
+        40% {
+          background: url("../images/cho/c1_14.png") 0/100% no-repeat;
+        }
+        50% {
+          background: url("../images/cho/c1_17.png") 0/100% no-repeat;
+        }
+        60% {
+          background: url("../images/cho/c1_21.png") 0/100% no-repeat;
+        }
+        70% {
+          background: url("../images/cho/c1_25.png") 0/100% no-repeat;
+        }
+        80% {
+          background: url("../images/cho/c1_28.png") 0/100% no-repeat;
+        }
+        90% {
+          background: url("../images/cho/c1_32.png") 0/100% no-repeat;
+        }
+        100% {
+          background: url("../images/cho/c1_35.png") 0/100% no-repeat;
+        }
       }
       .item-progress{
         width: 50%;
@@ -1612,3 +1729,62 @@ a{
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+50%{
+  opacity: 1;
+}
+  to {
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
