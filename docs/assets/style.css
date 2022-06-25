@@ -1719,7 +1719,7 @@ a:hover {
     opacity: 0;
     transform: scale3d(0.3, 0.3, 0.3);
   }
-  50% {
+  100% {
     opacity: 1;
   }
 }
@@ -1728,7 +1728,7 @@ a:hover {
     opacity: 0;
     transform: scale3d(0.3, 0.3, 0.3);
   }
-  50% {
+  100% {
     opacity: 1;
   }
 }
