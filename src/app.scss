@@ -286,7 +286,7 @@ a{
       .slogan{
         width: vwm(800px);
         height: vwm(100px);
-        top: vwm(150px);
+        top: vwm(250px);
         margin-left: vwm(-529px);
       }
       .bg-video{
@@ -308,13 +308,53 @@ a{
       }
       .nv-2{
         background: url("../images/nv-2.png") 0/100% no-repeat;
-        width: vwm(200px);
-        height: vwm(202px);
+        width: vwm(300px);
+        height: vwm(303px);
         position: absolute;
         bottom: vwm(100px);
         left: vwm(150px);
         animation: lenxuong 2s linear infinite;
         -webkit-animation: lenxuong 2s linear infinite;
+      }
+      .nv-3{
+        background: url("../images/nv-3.png") 0/100% no-repeat;
+        width: vwm(300px);
+        height: vwm(623px);
+        position: absolute;
+        bottom: vwm(200px);
+        right: 0;
+        animation: lenxuong 1.5s linear infinite;
+        -webkit-animation: lenxuong 1.5s linear infinite;
+      }
+      .nv-4{
+        background: url("../images/nv-4.png") 0/100% no-repeat;
+        width: vwm(300px);
+        height: vwm(394px);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        animation: lenxuong 2.5s linear infinite;
+        -webkit-animation: lenxuong 2.5s linear infinite;
+      }
+      .nv-5{
+        background: url("../images/nv-5.png") 0/100% no-repeat;
+        width: vwm(263px);
+        height: vwm(525px);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: lenxuong 2.5s linear infinite;
+        -webkit-animation: lenxuong 2.5s linear infinite;
+      }
+      .nv-6{
+        background: url("../images/nv-6.png") 0/100% no-repeat;
+        width: vwm(600px);
+        height: vwm(307px);
+        position: absolute;
+        top: vwm(40px);
+        left: 0;
+        animation: sangngang 2s linear infinite;
+        -webkit-animation: sangngang 2s linear infinite;
       }
     }
   }
@@ -327,6 +367,17 @@ a{
     }
     100% {
         transform: translateX(0px) translateY(15px);
+    }
+  }
+  @keyframes sangngang {
+    0% {
+      transform: translateY(0px) translateX(15px);
+    }
+    50% {
+        transform: translateY(0px) translateX(0);
+    }
+    100% {
+        transform: translateY(0px) translateX(15px);
     }
   }
 
@@ -789,73 +840,112 @@ a{
       }
       @keyframes gif1 {
         0% {
-          background: url("../images/gau/Gau_00.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_00.png") 0/100% no-repeat;
+        }
+        5% {
+          background: url("../images/gau/Gau-animation_01.png") 0/100% no-repeat;
         }
         10% {
-          background: url("../images/gau/Gau_03.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_02.png") 0/100% no-repeat;
+        }
+        15% {
+          background: url("../images/gau/Gau-animation_03.png") 0/100% no-repeat;
         }
         20% {
-          background: url("../images/gau/Gau_07.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_04.png") 0/100% no-repeat;
+        }
+        25% {
+          background: url("../images/gau/Gau-animation_05.png") 0/100% no-repeat;
         }
         30% {
-          background: url("../images/gau/Gau_10.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_06.png") 0/100% no-repeat;
+        }
+        35% {
+          background: url("../images/gau/Gau-animation_07.png") 0/100% no-repeat;
         }
         40% {
-          background: url("../images/gau/Gau_14.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_08.png") 0/100% no-repeat;
+        }
+        45% {
+          background: url("../images/gau/Gau-animation_09.png") 0/100% no-repeat;
         }
         50% {
-          background: url("../images/gau/Gau_17.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_10.png") 0/100% no-repeat;
+        }
+        55% {
+          background: url("../images/gau/Gau-animation_11.png") 0/100% no-repeat;
         }
         60% {
-          background: url("../images/gau/Gau_21.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_12.png") 0/100% no-repeat;
+        }
+        65% {
+          background: url("../images/gau/Gau-animation_13.png") 0/100% no-repeat;
         }
         70% {
-          background: url("../images/gau/Gau_25.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_14.png") 0/100% no-repeat;
+        }
+        75% {
+          background: url("../images/gau/Gau-animation_15.png") 0/100% no-repeat;
         }
         80% {
-          background: url("../images/gau/Gau_28.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_16.png") 0/100% no-repeat;
+        }
+        85% {
+          background: url("../images/gau/Gau-animation_17.png") 0/100% no-repeat;
         }
         90% {
-          background: url("../images/gau/Gau_32.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_18.png") 0/100% no-repeat;
         }
         100% {
-          background: url("../images/gau/Gau_35.png") 0/100% no-repeat;
+          background: url("../images/gau/Gau-animation_19.png") 0/100% no-repeat;
         }
       }
 
       @keyframes gif3 {
         0% {
-          background: url("../images/tho/t_00.png") 0/100% no-repeat;
+          background: url("../images/tho/Tho-animation_00.png") 0/100% no-repeat;
         }
-        10% {
-          background: url("../images/tho/t_03.png") 0/100% no-repeat;
+        6% {
+          background: url("../images/tho/Tho-animation_01.png") 0/100% no-repeat;
         }
-        20% {
-          background: url("../images/tho/t_07.png") 0/100% no-repeat;
+        13% {
+          background: url("../images/tho/Tho-animation_02.png") 0/100% no-repeat;
         }
-        30% {
-          background: url("../images/tho/t_10.png") 0/100% no-repeat;
+        19% {
+          background: url("../images/tho/Tho-animation_03.png") 0/100% no-repeat;
         }
-        40% {
-          background: url("../images/tho/t_14.png") 0/100% no-repeat;
+        26% {
+          background: url("../images/tho/Tho-animation_04.png") 0/100% no-repeat;
         }
-        50% {
-          background: url("../images/tho/t_17.png") 0/100% no-repeat;
+        33% {
+          background: url("../images/tho/Tho-animation_05.png") 0/100% no-repeat;
         }
-        60% {
-          background: url("../images/tho/t_21.png") 0/100% no-repeat;
+        39% {
+          background: url("../images/tho/Tho-animation_06.png") 0/100% no-repeat;
         }
-        70% {
-          background: url("../images/tho/t_25.png") 0/100% no-repeat;
+        46% {
+          background: url("../images/tho/Tho-animation_07.png") 0/100% no-repeat;
         }
-        80% {
-          background: url("../images/tho/t_28.png") 0/100% no-repeat;
+        53% {
+          background: url("../images/tho/Tho-animation_08.png") 0/100% no-repeat;
         }
-        90% {
-          background: url("../images/tho/t_32.png") 0/100% no-repeat;
+        59% {
+          background: url("../images/tho/Tho-animation_09.png") 0/100% no-repeat;
+        }
+        66% {
+          background: url("../images/tho/Tho-animation_10.png") 0/100% no-repeat;
+        }
+        73% {
+          background: url("../images/tho/Tho-animation_11.png") 0/100% no-repeat;
+        }
+        79% {
+          background: url("../images/tho/Tho-animation_12.png") 0/100% no-repeat;
+        }
+        86% {
+          background: url("../images/tho/Tho-animation_13.png") 0/100% no-repeat;
         }
         100% {
-          background: url("../images/tho/t_35.png") 0/100% no-repeat;
+          background: url("../images/tho/Tho-animation_14.png") 0/100% no-repeat;
         }
       }
       &::after{
@@ -1115,37 +1205,64 @@ a{
       }
       @keyframes gif2 {
         0% {
-          background: url("../images/cho/c1_00.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_00.png") 0/100% no-repeat;
+        }
+        5% {
+          background: url("../images/cho/Cho-animation_01.png") 0/100% no-repeat;
         }
         10% {
-          background: url("../images/cho/c1_03.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_02.png") 0/100% no-repeat;
+        }
+        15% {
+          background: url("../images/cho/Cho-animation_03.png") 0/100% no-repeat;
         }
         20% {
-          background: url("../images/cho/c1_07.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_04.png") 0/100% no-repeat;
+        }
+        25% {
+          background: url("../images/cho/Cho-animation_05.png") 0/100% no-repeat;
         }
         30% {
-          background: url("../images/cho/c1_10.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_06.png") 0/100% no-repeat;
+        }
+        35% {
+          background: url("../images/cho/Cho-animation_07.png") 0/100% no-repeat;
         }
         40% {
-          background: url("../images/cho/c1_14.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_08.png") 0/100% no-repeat;
+        }
+        45% {
+          background: url("../images/cho/Cho-animation_09.png") 0/100% no-repeat;
         }
         50% {
-          background: url("../images/cho/c1_17.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_10.png") 0/100% no-repeat;
+        }
+        55% {
+          background: url("../images/cho/Cho-animation_11.png") 0/100% no-repeat;
         }
         60% {
-          background: url("../images/cho/c1_21.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_12.png") 0/100% no-repeat;
+        }
+        65% {
+          background: url("../images/cho/Cho-animation_13.png") 0/100% no-repeat;
         }
         70% {
-          background: url("../images/cho/c1_25.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_14.png") 0/100% no-repeat;
+        }
+        75% {
+          background: url("../images/cho/Cho-animation_15.png") 0/100% no-repeat;
         }
         80% {
-          background: url("../images/cho/c1_28.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_16.png") 0/100% no-repeat;
+        }
+        85% {
+          background: url("../images/cho/Cho-animation_17.png") 0/100% no-repeat;
         }
         90% {
-          background: url("../images/cho/c1_32.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_18.png") 0/100% no-repeat;
         }
         100% {
-          background: url("../images/cho/c1_35.png") 0/100% no-repeat;
+          background: url("../images/cho/Cho-animation_19.png") 0/100% no-repeat;
         }
       }
       .item-progress{
