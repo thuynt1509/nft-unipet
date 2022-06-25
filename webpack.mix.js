@@ -46,4 +46,3 @@ mix
         postCss: [tailwindcss('./tailwind.config.js')],
     })
     .copy('./src/app.html', './docs/index.html')
-    .copy('./src/download.html', './docs/download.html')

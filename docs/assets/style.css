@@ -837,6 +837,9 @@ a:hover {
   position: relative;
   padding: 30px 60px 85px;
 }
+.unipet-wrapper .section4 .box-trailer iframe {
+  border-radius: 20px;
+}
 .unipet-wrapper .section4 .box-trailer::before {
   display: block;
   content: "";
@@ -1093,6 +1096,9 @@ a:hover {
     margin: 3.90625vw auto;
     padding: 1.5625vw 3.125vw 4.4270833333vw;
   }
+  .unipet-wrapper .section4 .box-trailer iframe {
+    border-radius: 1.0416666667vw;
+  }
   .unipet-wrapper .section4 .box-trailer::before {
     width: 18.8541666667vw;
     height: 22.65625vw;
@@ -1120,6 +1126,9 @@ a:hover {
     height: 58.3333333333vw;
     margin: 6.25vw auto;
     padding: 2.5vw 5vw 7.0833333333vw;
+  }
+  .unipet-wrapper .section4 .box-trailer iframe {
+    border-radius: 1.6666666667vw;
   }
   .unipet-wrapper .section4 .box-trailer::before {
     width: 30.1666666667vw;

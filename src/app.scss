@@ -826,6 +826,9 @@ a{
       margin: 75px auto;
       position: relative;
       padding: 30px 60px 85px;
+      iframe{
+        border-radius: 20px;
+      }
       &::before{
         display: block;
         content: '';
@@ -972,6 +975,9 @@ a{
         height: vw(788px);
         margin: vw(75px) auto;
         padding: vw(30px) vw(60px) vw(85px);
+        iframe{
+          border-radius: vw(20px);
+        }
         &::before{
           width: vw(362px);
           height: vw(435px);
@@ -998,6 +1004,9 @@ a{
         height: vwm(700px);
         margin: vwm(75px) auto;
         padding: vwm(30px) vwm(60px) vwm(85px);
+        iframe{
+          border-radius: vwm(20px);
+        }
         &::before{
           width: vwm(362px);
           height: vwm(435px);
