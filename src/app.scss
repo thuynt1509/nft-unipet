@@ -267,6 +267,9 @@ a{
       left: 50%;
       margin-left: -529px;
     }
+    .character{
+      display: none;
+    }
     @media only screen and (max-width:1919px) {
       .slogan{
         width: vw(1058px);
@@ -276,14 +279,57 @@ a{
       }
     }
     @media only screen and (max-width:567px) {
+      background: url("../images/bg-1.jpg") 0/100% no-repeat;
+      width: vwm(1200px);
+      height: vwm(1254px);
+      position: relative;
       .slogan{
         width: vwm(800px);
         height: vwm(100px);
         top: vwm(150px);
         margin-left: vwm(-529px);
       }
+      .bg-video{
+        display: none;
+      }
+      .character{
+        display: block;
+      }
+      .nv-1{
+        background: url("../images/nv-1.png") 0/100% no-repeat;
+        width: vwm(600px);
+        height: vwm(602px);
+        position: absolute;
+        top: vwm(350px);
+        left: 50%;
+        margin-left: vwm(-300px);
+        animation: lenxuong 2.5s linear infinite;
+        -webkit-animation: lenxuong 2.5s linear infinite;
+      }
+      .nv-2{
+        background: url("../images/nv-2.png") 0/100% no-repeat;
+        width: vwm(200px);
+        height: vwm(202px);
+        position: absolute;
+        bottom: vwm(100px);
+        left: vwm(150px);
+        animation: lenxuong 2s linear infinite;
+        -webkit-animation: lenxuong 2s linear infinite;
+      }
     }
   }
+  @keyframes lenxuong {
+    0% {
+      transform: translateX(0px) translateY(15px);
+    }
+    50% {
+        transform: translateX(0px) translateY(0);
+    }
+    100% {
+        transform: translateX(0px) translateY(15px);
+    }
+  }
+
   .section2{
     background: url("../images/bg2.png") 50% 0 no-repeat;
     min-height: 1235px;
@@ -738,7 +784,7 @@ a{
         position: absolute;
         top: -280px;
         right: -100px;
-        animation: gif1 1.5s infinite linear;
+        animation: gif3 1.5s infinite linear;
 
       }
       @keyframes gif1 {
@@ -774,6 +820,42 @@ a{
         }
         100% {
           background: url("../images/gau/Gau_35.png") 0/100% no-repeat;
+        }
+      }
+
+      @keyframes gif3 {
+        0% {
+          background: url("../images/tho/t_00.png") 0/100% no-repeat;
+        }
+        10% {
+          background: url("../images/tho/t_03.png") 0/100% no-repeat;
+        }
+        20% {
+          background: url("../images/tho/t_07.png") 0/100% no-repeat;
+        }
+        30% {
+          background: url("../images/tho/t_10.png") 0/100% no-repeat;
+        }
+        40% {
+          background: url("../images/tho/t_14.png") 0/100% no-repeat;
+        }
+        50% {
+          background: url("../images/tho/t_17.png") 0/100% no-repeat;
+        }
+        60% {
+          background: url("../images/tho/t_21.png") 0/100% no-repeat;
+        }
+        70% {
+          background: url("../images/tho/t_25.png") 0/100% no-repeat;
+        }
+        80% {
+          background: url("../images/tho/t_28.png") 0/100% no-repeat;
+        }
+        90% {
+          background: url("../images/tho/t_32.png") 0/100% no-repeat;
+        }
+        100% {
+          background: url("../images/tho/t_35.png") 0/100% no-repeat;
         }
       }
       &::after{
