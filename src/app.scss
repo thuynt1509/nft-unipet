@@ -960,6 +960,45 @@ a{
         position: absolute;
         bottom: -100px;
         left: -300px;
+        animation: gif4 1.5s infinite linear;
+      }
+      @keyframes gif4 {
+        0% {
+          background: url("../images/rong1/1_00.png") 0/100% no-repeat;
+        }
+        8% {
+          background: url("../images/rong1/1_01.png") 0/100% no-repeat;
+        }
+        17% {
+          background: url("../images/rong1/1_02.png") 0/100% no-repeat;
+        }
+        25% {
+          background: url("../images/rong1/1_03.png") 0/100% no-repeat;
+        }
+        42% {
+          background: url("../images/rong1/1_04.png") 0/100% no-repeat;
+        }
+        51% {
+          background: url("../images/rong1/1_05.png") 0/100% no-repeat;
+        }
+        59% {
+          background: url("../images/rong1/1_06.png") 0/100% no-repeat;
+        }
+        67% {
+          background: url("../images/rong1/1_07.png") 0/100% no-repeat;
+        }
+        76% {
+          background: url("../images/rong1/1_08.png") 0/100% no-repeat;
+        }
+        84% {
+          background: url("../images/rong1/1_09.png") 0/100% no-repeat;
+        }
+        93% {
+          background: url("../images/rong1/1_10.png") 0/100% no-repeat;
+        }
+        100% {
+          background: url("../images/rong1/1_11.png") 0/100% no-repeat;
+        }
       }
     }
     @media only screen and (max-width: 1919px) {
@@ -1572,6 +1611,45 @@ a{
         position: absolute;
         bottom: -500px;
         right: 0;
+        animation: gif5 1.5s infinite linear;
+      }
+      @keyframes gif5 {
+        0% {
+          background: url("../images/rong2/r_00.png") 0/100% no-repeat;
+        }
+        8% {
+          background: url("../images/rong2/r_01.png") 0/100% no-repeat;
+        }
+        17% {
+          background: url("../images/rong2/r_02.png") 0/100% no-repeat;
+        }
+        25% {
+          background: url("../images/rong2/r_03.png") 0/100% no-repeat;
+        }
+        42% {
+          background: url("../images/rong2/r_04.png") 0/100% no-repeat;
+        }
+        51% {
+          background: url("../images/rong2/r_05.png") 0/100% no-repeat;
+        }
+        59% {
+          background: url("../images/rong2/r_06.png") 0/100% no-repeat;
+        }
+        67% {
+          background: url("../images/rong2/r_07.png") 0/100% no-repeat;
+        }
+        76% {
+          background: url("../images/rong2/r_08.png") 0/100% no-repeat;
+        }
+        84% {
+          background: url("../images/rong2/r_09.png") 0/100% no-repeat;
+        }
+        93% {
+          background: url("../images/rong2/r_10.png") 0/100% no-repeat;
+        }
+        100% {
+          background: url("../images/rong2/r_11.png") 0/100% no-repeat;
+        }
       }
       .item{
         width: 30%;
@@ -1994,5 +2072,6 @@ a{
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
 
 
