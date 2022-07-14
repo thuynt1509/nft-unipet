@@ -850,8 +850,8 @@ a:hover {
   position: absolute;
   top: -280px;
   right: -100px;
-  -webkit-animation: gif3 1.5s infinite linear;
-          animation: gif3 1.5s infinite linear;
+  -webkit-animation: gif3 1.5s linear infinite;
+          animation: gif3 1.5s linear infinite;
 }
 @-webkit-keyframes gif1 {
   0% {
@@ -1080,8 +1080,8 @@ a:hover {
   position: absolute;
   bottom: -100px;
   left: -300px;
-  -webkit-animation: gif4 1.5s infinite linear;
-          animation: gif4 1.5s infinite linear;
+  -webkit-animation: gif4 1.5s linear infinite;
+          animation: gif4 1.5s linear infinite;
 }
 @-webkit-keyframes gif4 {
   0% {
@@ -1437,8 +1437,8 @@ a:hover {
   position: absolute;
   right: -170px;
   top: -250px;
-  -webkit-animation: gif1 1.5s infinite linear;
-          animation: gif1 1.5s infinite linear;
+  -webkit-animation: gif1 1.5s linear infinite;
+          animation: gif1 1.5s linear infinite;
 }
 .unipet-wrapper .section6 .list-progress::after {
   display: block;
@@ -1449,8 +1449,8 @@ a:hover {
   position: absolute;
   left: -170px;
   bottom: -100px;
-  -webkit-animation: gif2 1.5s infinite linear;
-          animation: gif2 1.5s infinite linear;
+  -webkit-animation: gif2 2s linear infinite;
+          animation: gif2 2s linear infinite;
 }
 @-webkit-keyframes gif2 {
   0% {
@@ -1858,8 +1858,8 @@ a:hover {
   position: absolute;
   bottom: -500px;
   right: 0;
-  -webkit-animation: gif5 1.5s infinite linear;
-          animation: gif5 1.5s infinite linear;
+  -webkit-animation: gif5 1.5s linear infinite;
+          animation: gif5 1.5s linear infinite;
 }
 @-webkit-keyframes gif5 {
   0% {

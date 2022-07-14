@@ -840,7 +840,7 @@ a{
         position: absolute;
         top: -280px;
         right: -100px;
-        animation: gif3 1.5s infinite linear;
+        animation: gif3 1.5s linear infinite;
 
       }
       @keyframes gif1 {
@@ -962,7 +962,7 @@ a{
         position: absolute;
         bottom: -100px;
         left: -300px;
-        animation: gif4 1.5s infinite linear;
+        animation: gif4 1.5s linear infinite;
       }
       @keyframes gif4 {
         0% {
@@ -1264,7 +1264,7 @@ a{
         position: absolute;
         right: -170px;
         top: -250px;
-        animation: gif1 1.5s infinite linear;
+        animation: gif1 1.5s linear infinite;
       }
       &::after{
         display: block;
@@ -1275,7 +1275,7 @@ a{
         position: absolute;
         left: -170px;
         bottom: -100px;
-        animation: gif2 1.5s infinite linear;
+        animation: gif2 2s linear infinite;
       }
       @keyframes gif2 {
         0% {
@@ -1637,7 +1637,7 @@ a{
         position: absolute;
         bottom: -500px;
         right: 0;
-        animation: gif5 1.5s infinite linear;
+        animation: gif5 1.5s linear infinite;
       }
       @keyframes gif5 {
         0% {
