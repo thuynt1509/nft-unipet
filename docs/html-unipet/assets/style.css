@@ -95,6 +95,7 @@ a:hover {
 
 .spr {
   background: url("../images/social.png");
+  background-size: 314px 43px;
 }
 @media only screen and (max-width: 1023px) {
   .spr {
@@ -1084,78 +1085,126 @@ a:hover {
 }
 @-webkit-keyframes gif4 {
   0% {
-    background: url("../images/rong1/1_00.png") 0/100% no-repeat;
+    background: url("../images/rong1/Rong1-animation_00.png") 0/100% no-repeat;
   }
-  8% {
-    background: url("../images/rong1/1_01.png") 0/100% no-repeat;
+  5% {
+    background: url("../images/rong1/Rong1-animation_01.png") 0/100% no-repeat;
   }
-  17% {
-    background: url("../images/rong1/1_02.png") 0/100% no-repeat;
+  10% {
+    background: url("../images/rong1/Rong1-animation_02.png") 0/100% no-repeat;
+  }
+  15% {
+    background: url("../images/rong1/Rong1-animation_03.png") 0/100% no-repeat;
+  }
+  20% {
+    background: url("../images/rong1/Rong1-animation_04.png") 0/100% no-repeat;
   }
   25% {
-    background: url("../images/rong1/1_03.png") 0/100% no-repeat;
+    background: url("../images/rong1/Rong1-animation_05.png") 0/100% no-repeat;
   }
-  42% {
-    background: url("../images/rong1/1_04.png") 0/100% no-repeat;
+  30% {
+    background: url("../images/rong1/Rong1-animation_06.png") 0/100% no-repeat;
   }
-  51% {
-    background: url("../images/rong1/1_05.png") 0/100% no-repeat;
+  35% {
+    background: url("../images/rong1/Rong1-animation_07.png") 0/100% no-repeat;
   }
-  59% {
-    background: url("../images/rong1/1_06.png") 0/100% no-repeat;
+  40% {
+    background: url("../images/rong1/Rong1-animation_08.png") 0/100% no-repeat;
   }
-  67% {
-    background: url("../images/rong1/1_07.png") 0/100% no-repeat;
+  45% {
+    background: url("../images/rong1/Rong1-animation_09.png") 0/100% no-repeat;
   }
-  76% {
-    background: url("../images/rong1/1_08.png") 0/100% no-repeat;
+  50% {
+    background: url("../images/rong1/Rong1-animation_10.png") 0/100% no-repeat;
   }
-  84% {
-    background: url("../images/rong1/1_09.png") 0/100% no-repeat;
+  55% {
+    background: url("../images/rong1/Rong1-animation_11.png") 0/100% no-repeat;
   }
-  93% {
-    background: url("../images/rong1/1_10.png") 0/100% no-repeat;
+  60% {
+    background: url("../images/rong1/Rong1-animation_12.png") 0/100% no-repeat;
+  }
+  65% {
+    background: url("../images/rong1/Rong1-animation_13.png") 0/100% no-repeat;
+  }
+  70% {
+    background: url("../images/rong1/Rong1-animation_14.png") 0/100% no-repeat;
+  }
+  75% {
+    background: url("../images/rong1/Rong1-animation_15.png") 0/100% no-repeat;
+  }
+  80% {
+    background: url("../images/rong1/Rong1-animation_16.png") 0/100% no-repeat;
+  }
+  85% {
+    background: url("../images/rong1/Rong1-animation_17.png") 0/100% no-repeat;
+  }
+  90% {
+    background: url("../images/rong1/Rong1-animation_18.png") 0/100% no-repeat;
   }
   100% {
-    background: url("../images/rong1/1_11.png") 0/100% no-repeat;
+    background: url("../images/rong1/Rong1-animation_19.png") 0/100% no-repeat;
   }
 }
 @keyframes gif4 {
   0% {
-    background: url("../images/rong1/1_00.png") 0/100% no-repeat;
+    background: url("../images/rong1/Rong1-animation_00.png") 0/100% no-repeat;
   }
-  8% {
-    background: url("../images/rong1/1_01.png") 0/100% no-repeat;
+  5% {
+    background: url("../images/rong1/Rong1-animation_01.png") 0/100% no-repeat;
   }
-  17% {
-    background: url("../images/rong1/1_02.png") 0/100% no-repeat;
+  10% {
+    background: url("../images/rong1/Rong1-animation_02.png") 0/100% no-repeat;
+  }
+  15% {
+    background: url("../images/rong1/Rong1-animation_03.png") 0/100% no-repeat;
+  }
+  20% {
+    background: url("../images/rong1/Rong1-animation_04.png") 0/100% no-repeat;
   }
   25% {
-    background: url("../images/rong1/1_03.png") 0/100% no-repeat;
+    background: url("../images/rong1/Rong1-animation_05.png") 0/100% no-repeat;
   }
-  42% {
-    background: url("../images/rong1/1_04.png") 0/100% no-repeat;
+  30% {
+    background: url("../images/rong1/Rong1-animation_06.png") 0/100% no-repeat;
   }
-  51% {
-    background: url("../images/rong1/1_05.png") 0/100% no-repeat;
+  35% {
+    background: url("../images/rong1/Rong1-animation_07.png") 0/100% no-repeat;
   }
-  59% {
-    background: url("../images/rong1/1_06.png") 0/100% no-repeat;
+  40% {
+    background: url("../images/rong1/Rong1-animation_08.png") 0/100% no-repeat;
   }
-  67% {
-    background: url("../images/rong1/1_07.png") 0/100% no-repeat;
+  45% {
+    background: url("../images/rong1/Rong1-animation_09.png") 0/100% no-repeat;
   }
-  76% {
-    background: url("../images/rong1/1_08.png") 0/100% no-repeat;
+  50% {
+    background: url("../images/rong1/Rong1-animation_10.png") 0/100% no-repeat;
   }
-  84% {
-    background: url("../images/rong1/1_09.png") 0/100% no-repeat;
+  55% {
+    background: url("../images/rong1/Rong1-animation_11.png") 0/100% no-repeat;
   }
-  93% {
-    background: url("../images/rong1/1_10.png") 0/100% no-repeat;
+  60% {
+    background: url("../images/rong1/Rong1-animation_12.png") 0/100% no-repeat;
+  }
+  65% {
+    background: url("../images/rong1/Rong1-animation_13.png") 0/100% no-repeat;
+  }
+  70% {
+    background: url("../images/rong1/Rong1-animation_14.png") 0/100% no-repeat;
+  }
+  75% {
+    background: url("../images/rong1/Rong1-animation_15.png") 0/100% no-repeat;
+  }
+  80% {
+    background: url("../images/rong1/Rong1-animation_16.png") 0/100% no-repeat;
+  }
+  85% {
+    background: url("../images/rong1/Rong1-animation_17.png") 0/100% no-repeat;
+  }
+  90% {
+    background: url("../images/rong1/Rong1-animation_18.png") 0/100% no-repeat;
   }
   100% {
-    background: url("../images/rong1/1_11.png") 0/100% no-repeat;
+    background: url("../images/rong1/Rong1-animation_19.png") 0/100% no-repeat;
   }
 }
 @media only screen and (max-width: 1919px) {
@@ -1743,7 +1792,7 @@ a:hover {
 }
 .unipet-wrapper .section7 {
   background: url("../images/bg7.jpg") 50% 0 no-repeat;
-  min-height: 2803px;
+  min-height: 2703px;
   padding: 50px 0 0;
 }
 .unipet-wrapper .section7 .title-6 {
@@ -1798,7 +1847,7 @@ a:hover {
   flex-wrap: wrap;
   padding: 0 10%;
   position: relative;
-  margin-bottom: 500px;
+  margin-bottom: 600px;
 }
 .unipet-wrapper .footer .inner-footer::before {
   display: block;
@@ -1814,78 +1863,126 @@ a:hover {
 }
 @-webkit-keyframes gif5 {
   0% {
-    background: url("../images/rong2/r_00.png") 0/100% no-repeat;
+    background: url("../images/rong2/Rong2-animation_00.png") 0/100% no-repeat;
   }
-  8% {
-    background: url("../images/rong2/r_01.png") 0/100% no-repeat;
+  5% {
+    background: url("../images/rong2/Rong2-animation_01.png") 0/100% no-repeat;
   }
-  17% {
-    background: url("../images/rong2/r_02.png") 0/100% no-repeat;
+  10% {
+    background: url("../images/rong2/Rong2-animation_02.png") 0/100% no-repeat;
+  }
+  15% {
+    background: url("../images/rong2/Rong2-animation_03.png") 0/100% no-repeat;
+  }
+  20% {
+    background: url("../images/rong2/Rong2-animation_04.png") 0/100% no-repeat;
   }
   25% {
-    background: url("../images/rong2/r_03.png") 0/100% no-repeat;
+    background: url("../images/rong2/Rong2-animation_05.png") 0/100% no-repeat;
   }
-  42% {
-    background: url("../images/rong2/r_04.png") 0/100% no-repeat;
+  30% {
+    background: url("../images/rong2/Rong2-animation_06.png") 0/100% no-repeat;
   }
-  51% {
-    background: url("../images/rong2/r_05.png") 0/100% no-repeat;
+  35% {
+    background: url("../images/rong2/Rong2-animation_07.png") 0/100% no-repeat;
   }
-  59% {
-    background: url("../images/rong2/r_06.png") 0/100% no-repeat;
+  40% {
+    background: url("../images/rong2/Rong2-animation_08.png") 0/100% no-repeat;
   }
-  67% {
-    background: url("../images/rong2/r_07.png") 0/100% no-repeat;
+  45% {
+    background: url("../images/rong2/Rong2-animation_09.png") 0/100% no-repeat;
   }
-  76% {
-    background: url("../images/rong2/r_08.png") 0/100% no-repeat;
+  50% {
+    background: url("../images/rong2/Rong2-animation_10.png") 0/100% no-repeat;
   }
-  84% {
-    background: url("../images/rong2/r_09.png") 0/100% no-repeat;
+  55% {
+    background: url("../images/rong2/Rong2-animation_11.png") 0/100% no-repeat;
   }
-  93% {
-    background: url("../images/rong2/r_10.png") 0/100% no-repeat;
+  60% {
+    background: url("../images/rong2/Rong2-animation_12.png") 0/100% no-repeat;
+  }
+  65% {
+    background: url("../images/rong2/Rong2-animation_13.png") 0/100% no-repeat;
+  }
+  70% {
+    background: url("../images/rong2/Rong2-animation_14.png") 0/100% no-repeat;
+  }
+  75% {
+    background: url("../images/rong2/Rong2-animation_15.png") 0/100% no-repeat;
+  }
+  80% {
+    background: url("../images/rong2/Rong2-animation_16.png") 0/100% no-repeat;
+  }
+  85% {
+    background: url("../images/rong2/Rong2-animation_17.png") 0/100% no-repeat;
+  }
+  90% {
+    background: url("../images/rong2/Rong2-animation_18.png") 0/100% no-repeat;
   }
   100% {
-    background: url("../images/rong2/r_11.png") 0/100% no-repeat;
+    background: url("../images/rong2/Rong2-animation_19.png") 0/100% no-repeat;
   }
 }
 @keyframes gif5 {
   0% {
-    background: url("../images/rong2/r_00.png") 0/100% no-repeat;
+    background: url("../images/rong2/Rong2-animation_00.png") 0/100% no-repeat;
   }
-  8% {
-    background: url("../images/rong2/r_01.png") 0/100% no-repeat;
+  5% {
+    background: url("../images/rong2/Rong2-animation_01.png") 0/100% no-repeat;
   }
-  17% {
-    background: url("../images/rong2/r_02.png") 0/100% no-repeat;
+  10% {
+    background: url("../images/rong2/Rong2-animation_02.png") 0/100% no-repeat;
+  }
+  15% {
+    background: url("../images/rong2/Rong2-animation_03.png") 0/100% no-repeat;
+  }
+  20% {
+    background: url("../images/rong2/Rong2-animation_04.png") 0/100% no-repeat;
   }
   25% {
-    background: url("../images/rong2/r_03.png") 0/100% no-repeat;
+    background: url("../images/rong2/Rong2-animation_05.png") 0/100% no-repeat;
   }
-  42% {
-    background: url("../images/rong2/r_04.png") 0/100% no-repeat;
+  30% {
+    background: url("../images/rong2/Rong2-animation_06.png") 0/100% no-repeat;
   }
-  51% {
-    background: url("../images/rong2/r_05.png") 0/100% no-repeat;
+  35% {
+    background: url("../images/rong2/Rong2-animation_07.png") 0/100% no-repeat;
   }
-  59% {
-    background: url("../images/rong2/r_06.png") 0/100% no-repeat;
+  40% {
+    background: url("../images/rong2/Rong2-animation_08.png") 0/100% no-repeat;
   }
-  67% {
-    background: url("../images/rong2/r_07.png") 0/100% no-repeat;
+  45% {
+    background: url("../images/rong2/Rong2-animation_09.png") 0/100% no-repeat;
   }
-  76% {
-    background: url("../images/rong2/r_08.png") 0/100% no-repeat;
+  50% {
+    background: url("../images/rong2/Rong2-animation_10.png") 0/100% no-repeat;
   }
-  84% {
-    background: url("../images/rong2/r_09.png") 0/100% no-repeat;
+  55% {
+    background: url("../images/rong2/Rong2-animation_11.png") 0/100% no-repeat;
   }
-  93% {
-    background: url("../images/rong2/r_10.png") 0/100% no-repeat;
+  60% {
+    background: url("../images/rong2/Rong2-animation_12.png") 0/100% no-repeat;
+  }
+  65% {
+    background: url("../images/rong2/Rong2-animation_13.png") 0/100% no-repeat;
+  }
+  70% {
+    background: url("../images/rong2/Rong2-animation_14.png") 0/100% no-repeat;
+  }
+  75% {
+    background: url("../images/rong2/Rong2-animation_15.png") 0/100% no-repeat;
+  }
+  80% {
+    background: url("../images/rong2/Rong2-animation_16.png") 0/100% no-repeat;
+  }
+  85% {
+    background: url("../images/rong2/Rong2-animation_17.png") 0/100% no-repeat;
+  }
+  90% {
+    background: url("../images/rong2/Rong2-animation_18.png") 0/100% no-repeat;
   }
   100% {
-    background: url("../images/rong2/r_11.png") 0/100% no-repeat;
+    background: url("../images/rong2/Rong2-animation_19.png") 0/100% no-repeat;
   }
 }
 .unipet-wrapper .footer .inner-footer .item {
@@ -1895,7 +1992,7 @@ a:hover {
 }
 .unipet-wrapper .footer .inner-footer .item h4 {
   color: #1ffffc;
-  font-size: 90px;
+  font-size: 50px;
   margin-bottom: 50px;
 }
 .unipet-wrapper .footer .inner-footer .item ul li {
@@ -1904,7 +2001,7 @@ a:hover {
 .unipet-wrapper .footer .inner-footer .item ul li a {
   display: block;
   color: #fff;
-  font-size: 60px;
+  font-size: 40px;
 }
 .unipet-wrapper .footer .inner-footer .item ul li a:hover {
   color: #1ffffc;
@@ -1918,11 +2015,12 @@ a:hover {
 .unipet-wrapper .footer .info-footer .logo-partner {
   display: block;
   width: 25%;
+  max-width: 300px;
 }
 .unipet-wrapper .footer .info-footer .info-our h4 {
   color: #fff;
   text-align: center;
-  font-size: 48px;
+  font-size: 32px;
   margin-bottom: 30px;
 }
 .unipet-wrapper .footer .info-footer .info-our ul {
@@ -1930,8 +2028,8 @@ a:hover {
 }
 .unipet-wrapper .footer .info-footer .info-our ul li a {
   display: block;
-  width: 82px;
-  height: 86px;
+  width: 41px;
+  height: 43px;
   margin: 0 20px;
 }
 .unipet-wrapper .footer .info-footer .info-our ul li a:hover {
@@ -1941,16 +2039,16 @@ a:hover {
   background-position: 0 0;
 }
 .unipet-wrapper .footer .info-footer .info-our ul li .icon-game {
-  background-position: -136px 0;
+  background-position: -68px 0;
 }
 .unipet-wrapper .footer .info-footer .info-our ul li .icon-telegrame {
-  background-position: -275px 0;
+  background-position: -137px 0;
 }
 .unipet-wrapper .footer .info-footer .info-our ul li .icon-youtube {
-  background-position: -412px 0;
+  background-position: -206px 0;
 }
 .unipet-wrapper .footer .info-footer .info-our ul li .icon-tiktok {
-  background-position: -546px 0;
+  background-position: -273px 0;
 }
 @media only screen and (max-width: 1919px) {
   .unipet-wrapper .footer .inner-footer {
