@@ -287,7 +287,6 @@ a:hover {
   .unipet-wrapper .section1 {
     background: url("../images/bg-1.jpg") 0/100% no-repeat;
     width: 100vw;
-    height: 104.5vw;
     position: relative;
   }
   .unipet-wrapper .section1 .slogan {
@@ -295,9 +294,6 @@ a:hover {
     height: 8.3333333333vw;
     top: 20.8333333333vw;
     margin-left: -44.0833333333vw;
-  }
-  .unipet-wrapper .section1 .bg-video {
-    display: none;
   }
   .unipet-wrapper .section1 .character {
     display: block;

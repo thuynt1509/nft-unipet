@@ -283,7 +283,7 @@ a{
     @media only screen and (max-width:567px) {
       background: url("../images/bg-1.jpg") 0/100% no-repeat;
       width: vwm(1200px);
-      height: vwm(1254px);
+      // height: vwm(1254px);
       position: relative;
       .slogan{
         width: vwm(800px);
@@ -292,7 +292,7 @@ a{
         margin-left: vwm(-529px);
       }
       .bg-video{
-        display: none;
+        // display: none;
       }
       .character{
         display: block;
