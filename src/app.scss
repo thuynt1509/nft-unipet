@@ -831,16 +831,16 @@ a{
       iframe{
         border-radius: 20px;
       }
-      &::before{
-        display: block;
-        content: '';
-        background: url("../images/icon-pet2.png") 0/100% no-repeat;
+      .pet-rabbit{
+        // display: none;
+        // content: '';
+        // background: url("../images/icon-pet2.png") 0/100% no-repeat;
         width: 362px;
         height: 435px;
         position: absolute;
         top: -280px;
         right: -100px;
-        animation: gif3 1.5s linear infinite;
+        // animation: gif3 1.5s linear infinite;
 
       }
       @keyframes gif1 {
@@ -954,7 +954,7 @@ a{
         }
       }
       &::after{
-        display: block;
+        display: none;
         content: '';
         background: url("../images/icon-pet1.png") 0/100% no-repeat;
         width: 525px;

@@ -837,17 +837,12 @@ a:hover {
 .unipet-wrapper .section4 .box-trailer iframe {
   border-radius: 20px;
 }
-.unipet-wrapper .section4 .box-trailer::before {
-  display: block;
-  content: "";
-  background: url("../images/icon-pet2.png") 0/100% no-repeat;
+.unipet-wrapper .section4 .box-trailer .pet-rabbit {
   width: 362px;
   height: 435px;
   position: absolute;
   top: -280px;
   right: -100px;
-  -webkit-animation: gif3 1.5s linear infinite;
-          animation: gif3 1.5s linear infinite;
 }
 @-webkit-keyframes gif1 {
   0% {
@@ -1068,7 +1063,7 @@ a:hover {
   }
 }
 .unipet-wrapper .section4 .box-trailer::after {
-  display: block;
+  display: none;
   content: "";
   background: url("../images/icon-pet1.png") 0/100% no-repeat;
   width: 525px;
