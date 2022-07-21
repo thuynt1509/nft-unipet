@@ -834,7 +834,6 @@ a{
       .pet-rabbit{
         // display: none;
         // content: '';
-        // background: url("../images/icon-pet2.png") 0/100% no-repeat;
         width: 362px;
         height: 435px;
         position: absolute;
@@ -953,16 +952,14 @@ a{
           background: url("../images/tho/Tho-animation_14.png") 0/100% no-repeat;
         }
       }
-      &::after{
-        display: none;
-        content: '';
-        background: url("../images/icon-pet1.png") 0/100% no-repeat;
+      .pet-rong1{
+        // display: none;
+        // content: '';
         width: 525px;
         height: 477px;
         position: absolute;
         bottom: -100px;
         left: -300px;
-        animation: gif4 1.5s linear infinite;
       }
       @keyframes gif4 {
         0% {
@@ -1043,13 +1040,13 @@ a{
         iframe{
           border-radius: vw(20px);
         }
-        &::before{
+        .pet-rabbit{
           width: vw(362px);
           height: vw(435px);
           top: vw(-280px);
           right: vw(-100px);
         }
-        &::after{
+        .pet-rong1{
           width: vw(525px);
           height: vw(477px);
           bottom: vw(-100px);
@@ -1072,13 +1069,13 @@ a{
         iframe{
           border-radius: vwm(20px);
         }
-        &::before{
+        .pet-rabbit{
           width: vwm(362px);
           height: vwm(435px);
           top: vwm(-280px);
           right: vwm(-100px);
         }
-        &::after{
+        .pet-rong1{
           width: vwm(525px);
           height: vwm(477px);
           bottom: vwm(-200px);
@@ -1235,7 +1232,7 @@ a{
   .section6{
     background: url("../images/bg6.jpg") 50% 0 no-repeat;
     min-height: 1091px;
-    padding: 75px 0 100px;
+    padding: 75px 0 150px;
     .title-5{
       display: block;
       background: url("../images/title-5.png") 0/100% no-repeat;
@@ -1255,27 +1252,19 @@ a{
       flex-wrap: wrap;
       position: relative;
       z-index: 1;
-      &::before{
-        display: block;
-        content: '';
-        background: url("../images/icon-pet3.png") 0/100% no-repeat;
+      .pet-gau{
         width: 417px;
         height: 488px;
         position: absolute;
         right: -170px;
         top: -250px;
-        animation: gif1 1.5s linear infinite;
       }
-      &::after{
-        display: block;
-        content: '';
-        background: url("../images/icon-pet4.png") 0/100% no-repeat;
+      .pet-cho{
         width: 352px;
         height: 511px;
         position: absolute;
         left: -170px;
-        bottom: -100px;
-        animation: gif2 2s linear infinite;
+        bottom: -150px;
       }
       @keyframes gif2 {
         0% {
@@ -1419,7 +1408,7 @@ a{
     @media only screen and (max-width: 1919px) {
       background-size: 100% 100%;
       min-height: vw(1091px);
-      padding: vw(75px) 0 vw(100px);
+      padding: vw(75px) 0 vw(150px);
       .title-5{
         width: vw(1128px);
         height: vw(99px);
@@ -1430,17 +1419,17 @@ a{
         margin: 0 auto vw(50px);
       }
       .list-progress{
-        &::before{
+        .pet-gau{
           width: vw(417px);
           height: vw(488px);
           right: vw(-170px);
           top: vw(-250px);
         }
-        &::after{
+        .pet-cho{
           width: vw(352px);
           height: vw(511px);
           left: vw(-170px);
-          bottom: vw(-100px);
+          bottom: vw(-150px);
         }
         .item-progress{
           .date{
@@ -1495,7 +1484,7 @@ a{
     }
     @media only screen and (max-width:567px) {
       min-height: vwm(1091px);
-      padding: vwm(75px) 0 vwm(100px);
+      padding: vwm(75px) 0 vwm(150px);
       .title-5{
         width: vwm(1128px);
         height: vwm(99px);
@@ -1507,17 +1496,17 @@ a{
       }
       .list-progress{
         padding: 0 10px;
-        &::before{
+        .pet-gau{
           width: vwm(417px);
           height: vwm(488px);
           right: 0;
-          top: vwm(-250px);
+          top: vwm(-300px);
         }
-        &::after{
+        .pet-cho{
           width: vwm(352px);
           height: vwm(511px);
           left: 0;
-          bottom: vwm(-100px);
+          bottom: vwm(-150px);
         }
         .item-progress{
           .date{
@@ -1628,16 +1617,12 @@ a{
       padding: 0 10%;
       position: relative;
       margin-bottom: 600px;
-      &::before{
-        display: block;
-        content: '';
-        background: url("../images/icon-pet5.png") 0/100% no-repeat;
+      .pet-rong2{
         width: 630px;
         height: 848px;
         position: absolute;
         bottom: -500px;
         right: 0;
-        animation: gif5 1.5s linear infinite;
       }
       @keyframes gif5 {
         0% {
@@ -1776,7 +1761,7 @@ a{
     @media only screen and (max-width:1919px) {
       .inner-footer{
         margin-bottom: vw(500px);
-        &::before{
+        .pet-rong2{
           width: vw(630px);
           height: vw(848px);
           bottom: vw(-500px);
@@ -1839,7 +1824,7 @@ a{
     @media only screen and (max-width:567px) {
       .inner-footer{
         margin-bottom: vwm(200px);
-        &::before{
+        .pet-rong2{
           width: vwm(630px);
           height: vwm(848px);
           bottom: vwm(-100px);
